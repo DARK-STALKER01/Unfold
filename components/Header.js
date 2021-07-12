@@ -4,7 +4,7 @@ export default function HeaderModule() {
   return (
     <>
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="description" content="" />
         <meta
@@ -13,6 +13,21 @@ export default function HeaderModule() {
         />
         <meta name="propeller" content="e85f01f028b7c9713bc593791644475b" />
         <title>AD BLASTER META</title>
+        <script
+          async
+          src="https://js.wpadmngr.com/static/adManager.js"
+          data-admpid="6462"
+        />
+        <script
+          async
+          src="https://js.wpadmngr.com/static/adManager.js"
+          data-admpid="6463"
+        />
+        <script
+          async
+          src="https://js.wpadmngr.com/static/adManager.js"
+          data-admpid="6464"
+        ></script>
       </Head>
     </>
   );
