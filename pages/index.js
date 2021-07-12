@@ -115,7 +115,7 @@ export default function Home() {
               </div>
               <div className="col-lg-6 offset-xl-1">
                 <div className="header-image d-none d-lg-block">
-                  <img src="/images/banner/hero.png" alt="hero" />
+                <div data-clickadilla-banner="2371"></div>
                 </div>
               </div>
             </div>
