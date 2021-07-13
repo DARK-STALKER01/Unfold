@@ -28,6 +28,11 @@ export default function HeaderModule() {
           src="https://js.wpadmngr.com/static/adManager.js"
           data-admpid="6464"
         ></script>
+        <script
+          async
+          src="https://js.wpadmngr.com/static/adManager.js"
+          data-admpid="6493"
+        ></script>
       </Head>
     </>
   );

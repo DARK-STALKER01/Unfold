@@ -86,21 +86,6 @@ export default function Home() {
           <div className="header-shape shape-five layer" data-depth="0.20">
             <img src="/images/banner/shape/shape-1.png" alt="Shape" />
           </div>
-          <div className="header-shape shape-six layer" data-depth="0.15">
-            <img src="/images/banner/shape/shape-4.png" alt="Shape" />
-          </div>
-          <div className="header-shape shape-seven layer" data-depth="0.50">
-            <img src="/images/banner/shape/shape-5.png" alt="Shape" />
-          </div>
-          <div className="header-shape shape-eight layer" data-depth="0.40">
-            <img src="/images/banner/shape/shape-3.png" alt="Shape" />
-          </div>
-          <div className="header-shape shape-nine layer" data-depth="0.20">
-            <img src="/images/banner/shape/shape-6.png" alt="Shape" />
-          </div>
-          <div className="header-shape shape-ten layer" data-depth="0.30">
-            <img src="/images/banner/shape/shape-3.png" alt="Shape" />
-          </div>
           <div className="container">
             <div className="row align-items-center">
               <div className="col-xl-5 col-lg-6">
