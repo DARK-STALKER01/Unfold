@@ -33,6 +33,19 @@ export default function HeaderModule() {
           src="https://js.wpadmngr.com/static/adManager.js"
           data-admpid="6493"
         ></script>
+        <script
+          type="text/javascript"
+          src="https://adhitzads.com/1133769"
+        ></script>
+        {/* <script
+          dangerouslySetInnerHTML={{
+            __html: `var infolinks_pid = 3336035; var infolinks_wsid = 0;`,
+          }}
+        />
+        <script
+          type="text/javascript"
+          src="//resources.infolinks.com/js/infolinks_main.js"
+        ></script> */}
       </Head>
     </>
   );
