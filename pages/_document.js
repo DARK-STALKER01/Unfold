@@ -24,6 +24,25 @@ export default class MyDocument extends Document {
           `,
             }}
           />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            atOptions = {
+              key: "079f1d312e13c2af71863dd86cf10f9f",
+              format: "iframe",
+              height: 90,
+              width: 728,
+              params: {},
+            };
+            document.write(
+              "<scr" +
+                'ipt type="text/javascript" src="http' +
+                (location.protocol === "https:" ? "s" : "") +
+                '://www.variouscreativeformats.com/079f1d312e13c2af71863dd86cf10f9f/invoke.js"></scr' +
+                "ipt>"
+            );`,
+            }}
+          />
         </Head>
         <body>
           <Main />
