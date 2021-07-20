@@ -711,6 +711,9 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="ad-container-5">
+          <div data-nat="2861"></div>
+          </div>
         </div>
       </footer>
       <a href="#" className="back-to-top">
