@@ -2,6 +2,47 @@ import Head from "next/head";
 import Image from "next/image";
 
 export default function Home() {
+  const adTag1 = `
+  <script type="text/javascript">
+	atOptions = {
+		'key' : '079f1d312e13c2af71863dd86cf10f9f',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.variouscreativeformats.com/079f1d312e13c2af71863dd86cf10f9f/invoke.js"></scr' + 'ipt>');
+</script>`;
+
+  const adTag2 = `
+  <script type="text/javascript">
+	atOptions = {
+		'key' : 'c8d85de158868f785685951a89091f99',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.variouscreativeformats.com/c8d85de158868f785685951a89091f99/invoke.js"></scr' + 'ipt>');
+</script>`;
+
+  const adTag3 = `
+  <script type="text/javascript">
+	atOptions = {
+		'key' : '73a157a175ae5267e4e9a8cb11205198',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.variouscreativeformats.com/73a157a175ae5267e4e9a8cb11205198/invoke.js"></scr' + 'ipt>');
+</script>`;
+
+  const adTag4 = `
+  <script type='text/javascript'
+  src='//pl16427798.alternativecpmgate.com/c4/d0/12/c4d012cc660791bbbbe67f1e62eead36.js'>
+  </script>`;
+
   return (
     <>
       <header id="home" className="header-area">
@@ -100,7 +141,7 @@ export default function Home() {
               </div>
               <div className="col-lg-6 offset-xl-1">
                 <div className="header-image d-none d-lg-block">
-                <div data-clickadilla-banner="2371"></div>
+                  <div data-clickadilla-banner="2371"></div>
                 </div>
               </div>
             </div>
@@ -139,7 +180,9 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <div id="container-ab0e64c3328738a838f7a55a6089bc25"></div>
+      <div className="ad-container-1">
+        <div id="container-ab0e64c3328738a838f7a55a6089bc25"></div>
+      </div>
       <section id="about" className="about-area pt-125 pb-130">
         <div className="container">
           <div className="row justify-content-center">
@@ -291,6 +334,10 @@ export default function Home() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
+              <div
+                className="ad-container-2"
+                dangerouslySetInnerHTML={{ __html: adTag1 }}
+              />
               <div className="section-title text-center pb-30">
                 <h2 className="title">My Services</h2>
                 <p>
@@ -399,6 +446,10 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div
+            className="ad-container-3"
+            dangerouslySetInnerHTML={{ __html: adTag2 }}
+          />
         </div>
       </section>
       <section
@@ -600,6 +651,10 @@ export default function Home() {
                   more works
                 </a>
               </div>
+              <div
+                className="ad-container-4"
+                dangerouslySetInnerHTML={{ __html: adTag3 }}
+              />
             </div>
           </div>
         </div>
@@ -663,6 +718,10 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      <div
+        className="ad-conatiner-5"
+        dangerouslySetInnerHTML={{ __html: adTag4 }}
+      />
       <a href="#" className="back-to-top">
         <i className="lni-chevron-up"></i>
       </a>

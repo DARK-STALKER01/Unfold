@@ -20,28 +20,6 @@ function MyApp({ Component, pageProps }) {
     };
   }, [router.events]);
 
-  useEffect(() => {
-    // multitag ads
-    (function (s, u, z, p) {
-      (s.src = u), s.setAttribute("data-zone", z), p.appendChild(s);
-    })(
-      document.createElement("script"),
-      "https://iclickcdn.com/tag.min.js",
-      4370161,
-      document.body || document.documentElement
-    );
-
-    // popunder ads
-    (function (s, u, z, p) {
-      (s.src = u), s.setAttribute("data-zone", z), p.appendChild(s);
-    })(
-      document.createElement("script"),
-      "https://iclickcdn.com/tag.min.js",
-      4370165,
-      document.body || document.documentElement
-    );
-  }, []);
-
   return (
     <>
       <LayoutModule>
