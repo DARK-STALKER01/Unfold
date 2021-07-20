@@ -38,11 +38,6 @@ export default function Home() {
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.variouscreativeformats.com/73a157a175ae5267e4e9a8cb11205198/invoke.js"></scr' + 'ipt>');
 </script>`;
 
-  const adTag4 = `
-  <script type='text/javascript'
-  src='//pl16427798.alternativecpmgate.com/c4/d0/12/c4d012cc660791bbbbe67f1e62eead36.js'>
-  </script>`;
-
   return (
     <>
       <header id="home" className="header-area">
@@ -718,10 +713,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-      <div
-        className="ad-conatiner-5"
-        dangerouslySetInnerHTML={{ __html: adTag4 }}
-      />
       <a href="#" className="back-to-top">
         <i className="lni-chevron-up"></i>
       </a>
